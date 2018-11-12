@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HTML lang="ru-RU">
+
+<HEAD>
+	<link rel="stylesheet" href="styles/style.css"> 
+	<TITLE> Hello world! </TITLE>
+	<script src="libs/myScript.js">	</script>
+</HEAD>
+
+<BODY>
+
+	<div class="simple_form" align="center">
+		<p id="msg"> Hello world! </p>
+		<form method="GET">
+			<input type="text" id="simple_form_name_field" placeholder="Your name"
+			onfocusout="validateName()">
+			<input type="button" value="GO" onclick="myFunc()"> 
+		</form>
+		<p id="simple_form_err_msg"> Error message </p>
+	</div>
+
+</BODY>
+</HTML>

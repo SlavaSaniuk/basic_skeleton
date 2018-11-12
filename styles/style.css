@@ -1,0 +1,66 @@
+@font-face {
+	font-family: ubuntu;
+	src: url(fonts/ubuntuRegular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+}
+
+.simple_form {
+	background: #ffffff; 
+
+	width: 20%;
+	margin-left: 40%;
+	margin-top: 10%;
+
+	border: 1px solid #000000;
+	border-radius: 10px;
+
+	font-family: ubuntu;
+}
+
+.simple_form > p {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.simple_form > form {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10px;
+}
+
+.simple_form > form > input {
+
+	width: 80%;
+	height: 40px;
+	margin-top: 10px; 
+
+	text-align: center;
+
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+}
+
+.simple_form > form > input:focus {
+
+	width: 80%;
+	height: 40px;
+	margin-top: 10px; 
+
+	text-align: center;
+
+	border: 1px solid #99ccff;
+	border-radius: 5px;
+}
+
+.simple_form #simple_form_err_msg{
+	display: none;
+}
+
